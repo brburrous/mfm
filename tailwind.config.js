@@ -1,8 +1,9 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   purge: [
-    'public/index.html',
-    'public/build/tailwind.css'
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
   ],
   theme: {
     extend: {
